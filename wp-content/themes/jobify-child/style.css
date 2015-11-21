@@ -18,3 +18,8 @@ Template: jobify
 /**
  * Place Custom CSS Below this.
  */
+ 
+
+#masthead {
+	background-color: red;
+}
