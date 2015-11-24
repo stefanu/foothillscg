@@ -83,14 +83,15 @@ html[xmlns] .slides {display: block;}
     -moz-box-shadow: none;
     -o-box-shadow: none;
     border: 0;
-    margin: 0 0 40px 0;
+    margin: 0;
     max-width: none;
     max-height: none;
 }
 
 .flex-control-nav {
-	bottom: -30px;
+	bottom: 0;
 	line-height: 11px;
+	z-index: 2;
 }
 
 /** move margin from list items to anchors */

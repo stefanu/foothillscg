@@ -31,19 +31,5 @@ Template: jobify
 	color: #000;
 }
 
-#primary {
-	background-color: #000;
-	height: 500px;
-}
-
-#site-navigation {
-	
-}
-
-#jumbotron {
-	background-image: url('http://localhost/foothillscg/wp-content/uploads/2015/11/losangeles.jpg');
-	width: 1600px;
-	height: 400px;
-}
 
 /** END OF HEADER **/
