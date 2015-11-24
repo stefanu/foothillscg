@@ -41,16 +41,10 @@
 
 		<header id="masthead" class="site-header" role="banner">
 			<div class="container">
-				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home" class="site-branding">
-					<?php $header_image = get_header_image(); ?>
-					<h1 class="site-title">
-						<?php if ( ! empty( $header_image ) ) : ?>
-							<img src="<?php echo $header_image ?>" width="<?php echo get_custom_header()->width; ?>" height="<?php echo get_custom_header()->height; ?>" alt="" />
-						<?php endif; ?>
-
-						<span><?php bloginfo( 'name' ); ?></span>
-					</h1>
-					<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
+				<h1 class="site-title" id="company-logo">
+					<a href="/"><img src="""alt="Foothills Consulting Group Logo" /></a>
+				</h1>
+					<h2 class="site-description">It Services & Business Solutions</h2>
 				</a>
 
 				<nav id="site-navigation" class="site-primary-navigation slide-left">

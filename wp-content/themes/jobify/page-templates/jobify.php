@@ -31,7 +31,19 @@ get_header(); ?>
 					endforeach;
 				endif;
 			?>
-
+		
+		
+		
+		<!-- Homepage Content -->
+		<div class="container" id="background">
+			<h2>SoCal IT Consulting Firm</h2>
+			<p>Foothills Consulting Group (FCG) is a premier IT Consulting Frim in the Southern California Region with offices in Burbank (Headquarters), Orange County and San Diego.</p>
+		</div>
+		
+		
+		
+		
+		
 		</div><!-- #content -->
 	</div><!-- #primary -->
 

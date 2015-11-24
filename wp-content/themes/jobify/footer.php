@@ -13,7 +13,7 @@
 		</div><!-- #main -->
 
 		<?php if ( jobify_theme_mod( 'jobify_cta', 'jobify_cta_display' ) ) : ?>
-		<div class="footer-cta">
+		<div class="footer-cta" id="footer">
 			<div class="container">
 				<?php echo wpautop( jobify_theme_mod( 'jobify_cta', 'jobify_cta_text' ) ); ?>
 			</div>

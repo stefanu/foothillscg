@@ -37,7 +37,7 @@ get_header(); ?>
 			</div>
 
 		</div><!-- #content -->
-
+			
 		<?php do_action( 'jobify_loop_after' ); ?>
 	</div><!-- #primary -->
 
