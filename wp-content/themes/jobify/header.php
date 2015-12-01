@@ -42,9 +42,9 @@
 		<header id="masthead" class="site-header" role="banner">
 			<div class="container">
 				<h1 class="site-title" id="company-logo">
-					<a href="/"><img src="""alt="Foothills Consulting Group Logo" /></a>
+					<a href="/foothillscg/"><img src="wp-includes/images/logo.png" "alt="Foothills Consulting Group Logo" /></a>
 				</h1>
-					<h2 class="site-description">It Services & Business Solutions</h2>
+				
 				</a>
 
 				<nav id="site-navigation" class="site-primary-navigation slide-left">
@@ -54,9 +54,10 @@
 				</nav>
 
 				<?php if ( has_nav_menu( 'primary' ) ) : ?>
-				<a href="#" class="primary-menu-toggle in-header"><i class="icon-menu"></i></a>
+				<a href="#" class="primary-menu-toggle in-header"><i class="icon-menu" id="iconmenu"></i></a>
 				<?php endif; ?>
 			</div>
+
 		</header><!-- #masthead -->
 
 		<div id="main" class="site-main">
