@@ -24,11 +24,25 @@ Template: jobify
 /** BEGINING OF HEADER **/
 
 #masthead {
-	background-color: #fff;
+	background-color: rgba(0,0,0,0.0);
+	box-shadow: none;
+	height: 108px;	
+}
+
+#main {
+	margin-top: -108px;
 }
 
 #menu-main li a {
-	color: #000;
+	color: #fff;
+}
+
+#iconmenu {
+	color: black;
+}
+
+#company-logo {
+	display: inline;
 }
 
 
